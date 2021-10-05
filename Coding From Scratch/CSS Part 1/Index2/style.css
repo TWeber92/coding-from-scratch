@@ -1,0 +1,31 @@
+#topic-link {
+    color: red;
+} 
+#topic-link:visited {
+    color: blue;
+}
+#topic-link:hover {
+    color: magenta;
+}
+.topics :nth-child(odd) {
+   color: red;
+   font-size: larger;
+}
+
+#container {
+    color: red;
+}
+
+.left-column {
+    color: blue;
+}
+div {
+    color: brown;
+} 
+div {
+    color: orange;
+}
+
+/* left column class attribute/selector superceeds a div tag/element, making this selection useless */
+ /* id superceeds class attribute/selector */
+

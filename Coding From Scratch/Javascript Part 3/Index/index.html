@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title> JavaScript Part 3</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</header>
+<body>
+    <button id="clickButton">Click!</button>
+
+    <p id="quizSample">This is for a quiz, it is asking a true false on copying content.</p>
+    <p id="quizSampleTwo">This will be the only text to display replacing quizSample.</p>
+
+    <input id="firstName" type="text" placeholder="First Name" />
+    <input id="lastName" type="text" placeholder="Last Name" />
+    <input id="email" type="text" placeholder="Email" />
+    <input id="age" type="number" placeholder="Age" />
+    <button onclick="getValues()">Submit!</button>
+
+   <button id="submitButton">Submit!</button> <!--setting the button to a unique id allows us to call for the element in script-->
+    <ul>
+        <li>Apples</li>
+        <li>Bananas</li> <!--using script you can access elements by tag names and retrieve all 'li' elements from the DOM-->
+        <li>Oranges</li>
+    </ul>
+    <p id="myParagraph">This is a great paragraph!</p> <!--This is an example for using a unique class to capture an element from the DOM-->
+
+    <button onclick="addNumbers()">Add Me!</button> <!--invoking a function in html with the onclick attribute -->
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

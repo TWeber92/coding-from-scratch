@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Lesson 8 Hands On</title>
+        <link rel="stylesheet" href="style.css" type="css/text">
+    </header>
+    <body>
+        <form><!--Creating a form to hold inputs for the user to insert values-->
+            <input id="firstName" type="text" placeholder="FirstName"/>
+          <input id="middleName" type="text" placeholder="MiddleName"/>
+          <input id="lastName" type="text" placeholder="LastName"/>
+            
+          
+          <button type="button" onclick="nameInfo()">Submit</button>
+            </form> <!--Using the 'onClick' Event to invoke the 'nameInfo' function written in the script document.-->
+          
+          <strong><p id="fullName"></p></strong> 
+          <!--Writing back to the DOM; after defining 'fullName' in the script file, set it to an Element as -->
+          <!--an ID to populate the Elements inner html.-->
+        <script src="script.js">                
+        </script>
+    </body>
+</html>

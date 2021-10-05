@@ -1,0 +1,17 @@
+p {
+    font-family: 'Courier New';
+    border-style: dashed solid double dotted;
+}
+#demon {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; /*overruling P tag*/
+    border-style: inset;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+div {
+   /* border-style: solid;
+    border-width: medium thin .5em thick;
+    border-color: green; */
+    border: thin solid green;
+}

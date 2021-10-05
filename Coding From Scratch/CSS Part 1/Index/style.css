@@ -1,0 +1,13 @@
+p {
+    color: blue;
+    font-weight: 600;
+}
+div {
+    color: #722b3f;
+    font-size: 2em;
+    font-weight: bolder;
+}
+body {
+    background-color: rgb(184, 183, 182);
+    font-size: 20px; /*<---interesting*/
+}
