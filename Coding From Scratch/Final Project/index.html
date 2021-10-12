@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Final Project</title>
+        <link href="https://fonts.googleapis.com/css?family=Vibes%26display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <body>
+            <h1>Let's Create an ID card!</h1>
+            <div id="form">
+                <label for="firstname">First Name:</label><br>
+			        <input type="text" placeholder="First Name" id="firstName" name="firstName" /><br>
+
+		        <label for="lastname">Last Name:</label><br>
+			        <input type="text" placeholder="Last Name" id="lastName" name="lastName" /><br>
+
+                <label for="age">Age:</label><br>
+                    <input type="text" placeholder="Age" id="age" name="age"/><br>
+
+                <label  for="phoneNumber">Phone Number:</label><br>
+                    <input type="text" placeholder="Phone Number" id="phoneNumber" name="phoneNumber"/><br>
+
+                <label for="address">Address:</label><br>
+                    <input type="text" placeholder="Address" id="address" name="address"/><br>
+
+                    <input type="button" onclick="idCard()" value="Submit!"/>
+                 </div>
+            <div id="idCard">
+                <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg" alt="">
+                <h1 id="postFullName"></h1>
+                <p id="postAge"></p>
+                <p id="postPhoneNumber"></p>
+                <p id="postAddress"></p>
+            </div>
+            <script src="script.js">
+
+            </script>
+        </body>
+    </header>
+</html>

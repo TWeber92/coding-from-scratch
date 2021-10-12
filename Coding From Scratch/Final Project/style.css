@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background: #009999;
+  }
+  .form {
+    font-weight: 600;
+  }
+  label {
+    font-weight: 600;
+  }
+  input:focus {
+    background-color: #ffff99;
+  }
+  input {
+    margin: 5px;
+  }
+  button {
+    border-radius: 3px; 
+    margin-top: 5px;
+    cursor:pointer;
+  }
+  #postFullName {
+    font-size: 2.5em;
+    font-Weight: bold;
+    margin: 0.7em;
+  }
+  #postAge {
+    text-align: left;
+    margin-left: 3px;
+  }
+  #postPhoneNumber {
+    text-align: left;
+    margin-left: 3px;
+  }
+  #postAddress {
+    text-align: left;
+    margin-left: 3px;
+  }
+  img {
+  width: 90px;
+  height: 90px;
+  float: left;
+  }
+  #idCard {
+  border: 5px solid black;
+  height: 14em;
+  width: 25em;
+  border-radius: 25px; 
+  margin: 75px auto 75px;
+  background: #ffcccc;
+  font-family: 'Vibes', cursive;
+  }
